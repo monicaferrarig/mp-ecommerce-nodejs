@@ -90,6 +90,10 @@
                             formmethod="post"
                             onclick="window.location.href='{{init_point}}'">Pagar la compra</button>
                             {{!-- <a href="{{init_point}}">Pagar la compra</a> --}}
+                            <script
+                                src="https://www.mercadopago.com.pe/integrations/v1/web-payment-checkout.js"
+                                data-preference-id='{{id-mp}}'>
+                            </script>
                         </div>
                     </div>
                 </div>
